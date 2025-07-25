@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/claims-ui/static/css/main.4ec4ac9a.css",
+    "main.js": "/claims-ui/static/js/main.ad7606a3.js",
+    "index.html": "/claims-ui/index.html",
+    "main.4ec4ac9a.css.map": "/claims-ui/static/css/main.4ec4ac9a.css.map",
+    "main.ad7606a3.js.map": "/claims-ui/static/js/main.ad7606a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ec4ac9a.css",
+    "static/js/main.ad7606a3.js"
+  ]
+}
