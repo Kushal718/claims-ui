@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "label": "Expiring Terms",
+    "isBase": true,
+    "familyDefinition": "EMP",
+    "employees": 100,
+    "dependents": 100,
+    "sumInsuredOption": "200000",
+    "sumInsured": 200000,
+    "comments": ""
+  },
+  {
+    "id": 2,
+    "label": "Option 1",
+    "isCloneable": true,
+    "familyDefinition": "EMP",
+    "employees": 100,
+    "dependents": 100,
+    "sumInsuredOption": "200000",
+    "sumInsured": 200000,
+    "comments": ""
+  }
+]
