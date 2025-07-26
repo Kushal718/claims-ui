@@ -83,10 +83,10 @@ const ClaimsOptionCard = ({
   return (
     <Card
       sx={{
-        width: '100%', // ✅ makes card fill grid column
+        width: '100%', 
         display: 'flex',
         flexDirection: 'column',
-        flex: 1,       // ✅ makes card height flexible
+        flex: 1,      
       }}
     >
       <CardHeader
