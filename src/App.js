@@ -34,8 +34,7 @@ function App() {
       };
       setOptions([...options, newCard]);
     } else {
-      // --- NEW LOGIC: Correctly find the next option number ---
-      // 1. Get all current "Option X" numbers
+     
       const optionNumbers = options
         .map(opt => {
           if (opt.label.startsWith('Option ')) {
@@ -45,16 +44,16 @@ function App() {
         })
         .filter(num => num !== null);
       
-      // 2. Find the highest number among them
+     
       const maxNumber = optionNumbers.length > 0 ? Math.max(...optionNumbers) : 0;
       
-      // 3. The new option is the highest number + 1
+     
       const newLabel = `Option ${maxNumber + 1}`;
 
       const newOption = {
         ...optionToClone,
         id: Date.now(),
-        label: newLabel, // Use the new, correct label
+        label: newLabel,
       };
       setOptions([...options, newOption]);
     }
